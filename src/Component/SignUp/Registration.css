@@ -1,0 +1,153 @@
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 800px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-container{
+    margin-bottom: 15px;
+    font-size: larger;   
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-style: roboto;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 48px 40px 38px 40px;
+
+}
+/* .child2{ */
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+/* } */
+.header{
+    display: flex;
+    font-style: flex-start;
+    viewBox: 0 0 75px 24px;
+    align-items: center;
+    width: 75%;
+    height: 24%;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: flex-start;
+}
+.heading {
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+}
+.headerm{
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+}
+.form-group{ 
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+ } 
+ .f{
+    color: rgb(66, 133, 244);
+}
+.u{
+    color: rgb(234, 67, 53);
+}
+.n{
+    color: rgb(251, 188, 5);
+}
+.d{
+    color: rgb(66, 133, 244);
+}
+.o{
+    color: rgb(52, 168, 83);
+}
+.o{
+    color: rgb(234, 67, 53);
+}
+
+.username{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-left: 5px;
+    width: 49%;   
+}
+.showpassword{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-gap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-content: space-between;
+  align-content: space-around;
+}
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.errorMessage {
+  color:#db2222;
+  font-size: 0.625em;
+  display: relative;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+@media only screen and (max-width: 770px){
+    .child1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 100%;
+        border: none;
+    }
+    .image{
+        display: none;  
+    }
+    .names{
+        display: flex;
+        flex-direction: column;
+    }
+    .password{
+        padding-top: 15px;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 500px;
+        box-shadow: none;
+    }
+
+}
+
+
+

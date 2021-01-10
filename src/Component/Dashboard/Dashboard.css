@@ -1,0 +1,56 @@
+.dashboard{
+    min-height: 100vh;
+    width: 100%; 
+} .appBar{
+    color: black;
+    background-color: white;
+
+    
+}
+.drawer{
+    position: unset !important;
+    border-right: lightgrey;
+}
+.MuiToolbar-gutters{
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+.search{
+    margin: 5px;
+    height: 9vh;
+    width: 72%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 8px;
+
+
+}
+/* .makeStyles-content-7{
+    padding: 24px;
+    flex-grow: 1;
+} */
+.MuiDrawer-paper{
+    padding-top: 60px;
+    padding-left: 20px;
+
+}
+.MuiToolbar-regular{
+    background-color: white;
+    border-bottom: lightgrey;
+}
+@media only screen and (max-width: 900px) {
+  .search {
+    display: none;
+  }
+  .searchedButton {
+    display: initial;
+  }
+  .leftOptions {
+    width: 40%;
+  }
+  .rightOptions {
+    width: 40%;
+  }
+
+}
